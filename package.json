@@ -1,0 +1,21 @@
+{
+    "name": "lewis-tac-toe-backend",
+    "version": "1.0.0",
+    "description": "Backend for the Lewis Tac Toe game, handling leaderboard and game state.",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "nodemon server.js"
+    },
+    "author": "Your Name",
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^8.6.0",
+        "express": "^4.19.2",
+        "mongoose": "^5.13.22"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.22"
+    }
+}
